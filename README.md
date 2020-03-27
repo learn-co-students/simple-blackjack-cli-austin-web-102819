@@ -71,7 +71,7 @@ programming design principle for separating the responsibilities and
 functionalities into discrete sections. For our command line app, that means
 that we have one file that defines the methods we will use to play our blackjack
 game and a *separate* file that calls those methods. Then, we will play our game
-by executing the that "runner" file via `ruby runner.rb` in the command line.
+by executing the "runner" file via `ruby runner.rb` in the command line.
 
 ### Testing Our Command Line App
 
